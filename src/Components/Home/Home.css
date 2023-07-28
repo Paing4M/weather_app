@@ -1,0 +1,47 @@
+.home {
+	height: 100%;
+	position: relative;
+	flex: 0.65;
+}
+
+.home > img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.home > h4 {
+	position: absolute;
+	color: #fff;
+	top: 10%;
+	left: 15%;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.home_weather {
+	position: absolute;
+	bottom: 10%;
+	left: 15%;
+	color: #fff;
+	flex-direction: column;
+	display: flex;
+	align-items: center;
+}
+
+.home_weather > h1 {
+	font-size: 4rem;
+}
+
+.home_location {
+	display: flex;
+	align-items: center;
+}
+
+.home_location {
+	font-size: 2rem;
+}
+
+.home_weather > p {
+	font-size: 14px;
+}
