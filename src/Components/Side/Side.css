@@ -81,3 +81,10 @@
 	font-weight: 800;
 	color: #3e3e3e;
 }
+
+@media screen and (max-width: 768px) {
+	.side {
+		flex: 1;
+		width: 100%;
+	}
+}

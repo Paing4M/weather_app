@@ -45,3 +45,9 @@
 .home_weather > p {
 	font-size: 14px;
 }
+
+@media screen and (max-width: 768px) {
+	.home {
+		flex: 1;
+	}
+}

@@ -1,7 +1,5 @@
 import React from 'react'
 import { useStateValue } from '../../StateProvider'
-
-import useApi from '../../useApi'
 import './Home.css'
 
 const Home = () => {

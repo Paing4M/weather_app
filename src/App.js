@@ -2,9 +2,7 @@ import { useEffect, useState } from 'react'
 import './App.css'
 import Home from './Components/Home/Home'
 import Side from './Components/Side/Side'
-import { useFetchWeather } from './fetchWeather'
 import { useStateValue } from './StateProvider'
-import useApi from './useApi'
 
 function App() {
 	const [{ weatherData }, dispatch] = useStateValue()

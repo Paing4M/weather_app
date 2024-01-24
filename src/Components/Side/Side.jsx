@@ -1,7 +1,6 @@
 import { Search } from '@mui/icons-material'
 import React, { useState } from 'react'
 import { useStateValue } from '../../StateProvider'
-import useApi from '../../useApi'
 import './Side.css'
 
 const Side = () => {

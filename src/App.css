@@ -19,3 +19,10 @@ body {
 	-webkit-box-shadow: 5px 5px 6px #a8b7cd, -5px -5px 6px #cedffb;
 	box-shadow: 5px 5px 6px #a8b7cd, -5px -5px 6px #cedffb;
 }
+
+@media screen and (max-width: 768px) {
+	.app {
+		flex-direction: column;
+		height: fit-content;
+	}
+}
